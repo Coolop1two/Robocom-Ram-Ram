@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #156ec7; /* A dark blue color */
+}
+
+.navbar-brand, .nav-link {
+    color: #ecf0f1 !important; /* Light grey color */
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: #3498db !important; /* Light blue on hover */
+}
+
+.jumbotron {
+    background: linear-gradient(to right, #3498db, #781734); /* Gradient background */
+    color: white;
+}
+
+.jumbotron .btn-primary {
+    background-color: #ff5900;
+    border-color: #ad4444;
+}
+
+.jumbotron .btn-primary:hover {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+.card {
+    border-color: #3498db; /* Border color for the card */
+}
+
+.card-title {
+    color: #3498db;
+}
+
+.card-text {
+    color: #2c3e50;
+}
+
+.card .btn-primary {
+    background-color: #8e44ad;
+    border-color: #8e44ad;
+}
+
+.card .btn-primary:hover {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+}
